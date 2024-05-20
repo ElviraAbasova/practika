@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.icons, .abouts, .number, .mail{
+    display: flex;
+    align-items: center;
+    
+}
+.topnav{
+    background-color: whitesmoke;
+
+}
+
+.container{
+    display: flex;
+    padding: 20px 0;
+    max-width: 960px;
+    margin: auto;
+    align-items: center;
+   justify-content: space-between;
+}
+
+.icons,.abouts{
+    gap: 10px;
+}
+.mail, .number{
+    gap: 10px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+.link{
+    text-decoration: none;
+    color: rgb(80, 80, 80) ;
+    
+}
+
+.hero{
+    padding: 300px 100px;
+    height: 1000px;
+    background-image: url("https://preview.colorlib.com/theme/selling/images/hero_2.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+  
+    flex-direction: column;
+    
+    align-items: flex-start;
+    gap: 20px;
+}
+.hero h1{
+    font-size: 50px;
+    color: white;
+}
+.hero p{
+    max-width: 500px;
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+button{
+    padding: 10px;
+    background-color: white;
+    border: 1px solid white;
+}
+.buttons .first{
+    background-color: transparent;
+    color: white;
+}
+
+.cards{
+    padding-top:50px ;
+    flex-direction: column;
+    gap: 10px;
+}
+.cards h3{
+    color: gray;
+}
+
+.cards h2{
+  font-size: 30px;
+}
+.cards p{
+    max-width: 500px;
+    text-align: center;
+    color: gray;
+}
+
+.posts{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.post{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.post .image{
+    width: 100%;
+}
+.post .image img{
+    width: 100% ;
+}
+
+.post .rate{
+    display: flex;
+    gap: 20px;
+}
+.post p{
+    max-width: 250px;
+}
+
+.button button{
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+
+}
+
+.button .view{
+    background-color: transparent;
+    color: black;
+    margin-left: 10px;
+ 
+}
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.leftSide{
+    width: 100%;
+    position: relative;
+}
+.leftSide img{
+    width: 100%;
+}
+
+.rightSide{
+    padding: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   
+}
+.rightSide h4{
+    color: gray;
+}
+
+.rightSide p{
+    color: gray;
+    font-size: 15px;
+}
+.rightSide button{
+    background-color: black;
+    color: white;
+    width: 150px;
+}
+
+.abselute{
+
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+    padding: 10px;
+    background-color: #46ddb0;
+}
+.abselute h3{
+    color: white;
+   
+    font-size: 40px;
+}
+.abselute p{
+    color: white;
+}
